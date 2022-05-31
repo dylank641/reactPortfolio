@@ -39,9 +39,43 @@ function Port(props) {
                         technologiesUsed = "This quiz will test you on you knowledge of javascript. It was made with basic HTML, CSS, and Javascript."
                         applicationUrl = "https://dylank641.github.io/code-quiz/"
                         repositoryUrl = "https://github.com/dylank641/code-quiz"
-                        imageUrl="code-quiz.png"
+                        imageUrl="code-quiz.PNG"
                     ></Project>
-               
+                </div>
+                <div className='project-container'>
+                    <Project
+                        currentPage={currentPage}
+                        setCurrentPage={setCurrentPage}
+                        projectTitle="Password Generator"
+                        technologiesUsed = "Password generator will ask you several questions about the length of your preferred password and the special characters you want included.It will then generate a random password, it was built using HTML, CSS, and JavaScript"
+                        applicationUrl = "https://dylank641.github.io/my-password-generator/"
+                        repositoryUrl = "https://github.com/dylank641/my-password-generator"
+                        imageUrl="passGen.png"
+                    ></Project>
+                </div>
+                <div className='project-container'>
+                    <Project
+                        currentPage={currentPage}
+                        setCurrentPage={setCurrentPage}
+                        projectTitle="Portfolio (Built with HTML and CSS)"
+                        technologiesUsed = "This was my first time building a real one page website. While it was quite simple to build, this project really opened my eyes to the infinite amount of possibilties you can pursue with code."
+                        applicationUrl = "https://dylank641.github.io/portfolio/"
+                        repositoryUrl = "https://github.com/dylank641/portfolio"
+                        imageUrl="ogPort.PNG"
+                    ></Project>
+                </div>
+                <div className='project-container'>
+                    <Project
+                        currentPage={currentPage}
+                        setCurrentPage={setCurrentPage}
+                        projectTitle="Work Day Scheduler"
+                        technologiesUsed = "This app was designed to keep the 9 to 5 worker on track throughout his day. This app was built with HTML, CSS, and Javascript"
+                        applicationUrl = "https://dylank641.github.io/day-scheduler/"
+                        repositoryUrl = "https://github.com/dylank641/day-scheduler"
+                        imageUrl="workDay.png"
+                    ></Project>
+                </div>
+            </div>
             
         </section>
     )
