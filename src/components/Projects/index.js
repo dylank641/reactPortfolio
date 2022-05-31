@@ -14,22 +14,22 @@ function Project(props) {
 
     switch (imageUrl) {
         case "noteTaker.png":
-            style = "tech-blog";
+            style = "noteTaker";
             break;
         case "weatherApp.png":
-            style = "note-taker";
+            style = "weatherApp";
             break;
         case "code-quiz.PNG":
             style = "code-quiz";
             break;
         case "passGen.png":
-            style = "workday-scheduler";
+            style = "passGen";
             break;
         case "ogPort.PNG":
-            style = "password-generator";
+            style = "ogPort";
             break;
         case "workDay.png":
-            style = "run-buddy";
+            style = "workDay";
             break;
         default:
             style = "";
@@ -40,7 +40,7 @@ function Project(props) {
         <div>
             <div>
                 <div className='project-info'>
-                    <a href={applicationUrl} target="_blank" rel="noreferrer">{projectTitle}</a><br />
+                    <a href={applicationUrl} target="_blank" rel="noreferrer">{projectTitle}-Click here to deploy app</a><br />
                     {descrip}<br />
                     <a href={repositoryUrl} target="_blank" rel="noreferrer">View repository</a>
                 </div>

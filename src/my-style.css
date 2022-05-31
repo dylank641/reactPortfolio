@@ -1,0 +1,144 @@
+
+#name-header {
+    border-radius: 5px;
+}
+
+.nav-option {
+    border-radius: 5px;
+}
+
+.nav-current {
+    background-color: var(--dark);
+    border-radius: 5px;
+    color: var(--secondary);
+}
+
+#about-header, #portfolio-header, #contact-header,#resume-header {
+    border-radius: 5px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.about-container {
+    margin: 10px 0;
+    display: flex;
+}
+
+#about-image {
+    border-radius: 5px;
+    border: 1px solid;
+    float: left;
+    padding: 0px 0 0 0;
+    margin: 5px 0 0 0;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+label, button, select {
+    font-family: inherit;
+    margin: 0;
+    padding: 10px;
+}
+
+input, textarea {
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: inherit;
+    margin: 2px;
+    padding: 10px;
+    width: 300px;
+}
+
+.error-message {
+    color: red;
+}
+
+#gitHub{
+    height: 200px;
+    width: 200px;
+}
+
+#linkedIn{
+    height: 200px;
+    width: 200px;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+}
+
+.project-container {
+    border: 1px solid var(--dark);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 10px 5px;
+    padding: 0px;
+    width: 495px;
+}
+
+.project-info {
+    background-color: var(--dark);
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.project-info a {
+    color: black;
+    background-color: aqua;
+    text-decoration: none;
+}
+
+.project-info a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.weatherApp {
+    background-image: url("./assets/weatherApp.png");
+    background-size: cover;
+    height: 170px;
+}
+
+.noteTaker {
+    background-image: url("./assets/noteTaker.png");
+    background-size: cover;
+    height: 170px;
+}
+
+.code-quiz {
+    background-image: url("./assets/code-quiz.PNG");
+    background-size: cover;
+    height: 170px;
+}
+
+.passGen {
+    background-image: url("./assets/passGen.png");
+    background-size: cover;
+    height: 170px;
+}
+
+.ogPort {
+    background-image: url("./assets/ogPort.PNG");
+    background-size: cover;
+    height: 170px;
+}
+
+.workDay {
+    background-image: url("./assets/workDay.png");
+    background-size: cover;
+    height: 170px;
+}
+
+/* Resume */
+.resume-container {
+    margin: 5px;
+    padding: 5px;
+}

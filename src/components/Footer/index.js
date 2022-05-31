@@ -14,13 +14,13 @@ function Footer() {
             <h3 className='text-dark'>
 
                 <a target="_blank" rel="noopener noreferrer" href={gitURL}>
-                    <img id="gitHub-profile-image" src={require(`../../assets/texas.jpg`)} alt="me" /><img id="gitHub-octocat-image" src={require(`../../assets/texas.jpg`)} alt="me" />
+                    <img id="gitHub" src={require(`../../assets/git.png`)} alt="me" />
                 </a>
 
                 <span className="gitHub-spacer"></span>
 
                 <a target="_blank" rel="noopener noreferrer" href={linkURL}>
-                    <img id="linkedIn-profile-image" src={require(`../../assets/texas.jpg`)} alt="me" />
+                    <img id="linkedIn" src={require(`../../assets/link.png`)} alt="me" />
                 </a>
                 
 

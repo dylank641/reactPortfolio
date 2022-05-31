@@ -25,14 +25,6 @@ function Contact() {
             }
         }
 
-        // //checks email
-        // if (event.target.name === 'email') {
-        //     if (!emailIsValid(event.target.value)) {
-        //         setErrorMsg("E-mail is not valid.");
-        //     } else {
-        //         setErrorMsg("");
-        //     }
-        // }
 
         //checks msg
         if (event.target.name === 'message') {

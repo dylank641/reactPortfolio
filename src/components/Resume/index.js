@@ -1,8 +1,9 @@
 import React from "react";
+import "./style.css"
 
 function Resume() {
   return (
-    <div className="d-flex flex-wrap justify-content-center">
+    <div id="res" className="d-flex flex-wrap justify-content-center">
       <a
         href={require("./resume.pdf")}
         download="Dylan-Killelea-Res"
