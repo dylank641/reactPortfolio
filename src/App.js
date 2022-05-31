@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import Port from './components/Portfolio';
+import Contact from './components/Contact';
+import Header from './components/Header';
+import About from './components/About';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
+// import './style-google.css';
+import './index.css';
+// import './style-custom.css';
+
 
 function App() {
+
+  const [currentPage, setCurrentPage] = useState('about');
+
+  useEffect(() => {
+    document.title = "James Dylan Killelea";
+  })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      ></Header>
+      <main className='container my-4'>
+        {currentPage === 'about' &&
+          <About></About>
+        }
+        {currentPage === 'portfolio' &&
+          <Port
+            currentPage={currentPage}
+            setCurrentPage={setCurrentPage}
+          ></Port>
+        }
+        {currentPage === 'contact' &&
+          <Contact></Contact>
+        }
+        {currentPage === 'resume' &&
+          <Resume></Resume>
+        }
+      </main>
+      <Footer></Footer>
     </div>
   );
 }
