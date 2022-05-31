@@ -104,37 +104,37 @@ input, textarea {
 .weatherApp {
     background-image: url("./assets/weatherApp.png");
     background-size: cover;
-    height: 170px;
+    height: 200px;
 }
 
 .noteTaker {
     background-image: url("./assets/noteTaker.png");
     background-size: cover;
-    height: 170px;
+    height: 200px;
 }
 
 .code-quiz {
     background-image: url("./assets/code-quiz.PNG");
     background-size: cover;
-    height: 170px;
+    height: 200px;
 }
 
 .passGen {
     background-image: url("./assets/passGen.png");
     background-size: cover;
-    height: 170px;
+    height: 200px;
 }
 
 .ogPort {
     background-image: url("./assets/ogPort.PNG");
     background-size: cover;
-    height: 170px;
+    height: 200px;
 }
 
 .workDay {
     background-image: url("./assets/workDay.png");
     background-size: cover;
-    height: 170px;
+    height: 200px;
 }
 
 /* Resume */
